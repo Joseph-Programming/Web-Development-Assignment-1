@@ -1,0 +1,103 @@
+/* "*" is used to style all elements within the HTML document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the body content and all content inside will inherit the style changes applied here */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF1E3;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/museum.jpg);
+  background-size: cover;
+  background-position: center;
+  height 100vh;
+}
+
+.museum.text.box{
+  position:absolute;
+  width: 1140px;
+
+}
+
+/* Styling for h1 element */
+h1{
+  color: rgb(25, 177, 168);
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Styling for h2 element */
+h2{
+  color: rgb(25, 177, 168);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the paragraph text element */
+p{
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 20px
+}
+
+/* Syling for the main-text class */
+.main-text{
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.container{
+   width: 1140px;   /* This is to adjust for the fact that modern monitors will be larger than the default 960px width */
+   margin-left: auto;
+   margin-right: auto;  /* With margin left and right being set to auto the content will stay as centered as possible and adjust according to the window size of the browser */
+}
+
+ /* Styling the button class, but also assigning these rules too both the unvisited and visited state buttons */
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+/* Styling the buttons class for when the cursor is hovering over the button and when it is clicked */
+.btn:hover,
+.btn:active{
+  background-color: rgb(172, 99, 13);
+}
+/* Same styling as the button class above but applying the inline element change to both visited and unvisited buttons specifically */
+.btn-home:link,
+.btn-home:visited{
+  background-color: rgb(185, 113, 63);
+  border: 1px rgb(209, 182, 101);
+}
+
+.btn-home:hover,
+.btn-home:active{
+  background-color: rgb(172, 99, 13);
+}
+
+.btn-contact{
+  background-color: rgb(185, 113, 63);
+  border: 1px rgb(209, 182, 101);
+}
+
+footer{
+    background-color: #333;
+}
+
+.footer-nav{
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: rgb(172, 99, 13);
+}
