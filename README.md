@@ -1,5 +1,5 @@
 # Web-Developement
-Contained within this repository are my assignments completed during my time at college. This includes HTML, CSS and Javascript.
+Contained within this repository is my assignment completed during my time at college. This includes HTML and CSS.
 
 This specific webpage was designed to show off my learnings within the year attending my computer programming course at DCU.
 
